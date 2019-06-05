@@ -276,4 +276,4 @@ hold on;
 plot(M_vec,dim_lanczos_1,'color',colors(2,:));
 plot(M_vec,dim_lanczos_2,'color',colors(3,:));
 xlabel({'$M,N$'},'interpreter','latex'); ylabel({'Dimensions'},'interpreter','latex'); 
-legend({'$k_Ak_B$','$k$ (svd)', '$k$ (Lanczos 1)','$k$ (Lanczos 2)'},'interpreter','latex','location','northwest');
+legend({'$k$ (svd)', '$k$ (Lanczos 1)','$k$ (Lanczos 2)'},'interpreter','latex','location','northwest');
