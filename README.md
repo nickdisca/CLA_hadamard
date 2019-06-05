@@ -4,14 +4,15 @@ This folder contains the implementation of the project “Structure exploiting L
 
 Main files:
 
-driver.m : main program
+```driver.m```: main program
 
-matvec_hadamard.m : implementation of the structure-exploiting matrix vector multiplication
+```matvec_hadamard.m```: implementation of the structure-exploiting matrix vector multiplication
 
-matmat_hadamard.m : implementation of the structure-exploiting matrix vector multiplication
+```matmat_hadamard.m```: implementation of the structure-exploiting matrix vector multiplication
 
-lanczos.m : implementation of the Lanczos method to approximate eigenpairs of a matrix A
+```lanczos.m```: implementation of the Lanczos method to approximate eigenpairs of a matrix A
 
-Afun.m : implementation of (C*C’)v or (C’*C)v where C is the Hadamard product between two matrices
+```Afun.m```: implementation of <img src="https://latex.codecogs.com/svg.latex?(\mathbf{C}\mathbf{C}^T)\mathbf{v}" title="(\mathbf{C}\mathbf{C}^T)\mathbf{v}" />
+or <img src="https://latex.codecogs.com/svg.latex?(\mathbf{C}\mathbf{C}^T)\mathbf{v}" title="(\mathbf{C}^T\mathbf{C})\mathbf{v}" /> where C is the Hadamard product between two matrices
 
 Last update: 04 June 2019
