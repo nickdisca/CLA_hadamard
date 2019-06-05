@@ -15,4 +15,4 @@ Main files:
 ```Afun.m```: implementation of <img src="https://latex.codecogs.com/svg.latex?(\mathbf{C}\mathbf{C}^T)\mathbf{v}" title="(\mathbf{C}\mathbf{C}^T)\mathbf{v}" />
 or <img src="https://latex.codecogs.com/svg.latex?(\mathbf{C}\mathbf{C}^T)\mathbf{v}" title="(\mathbf{C}^T\mathbf{C})\mathbf{v}" /> where C is the Hadamard product between two matrices
 
-Last update: 04 June 2019
+Last update: 05 June 2019
